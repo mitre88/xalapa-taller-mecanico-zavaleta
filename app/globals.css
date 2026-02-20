@@ -1,0 +1,21 @@
+:root {
+  --c1: #424242;
+  --c2: #D32F2F;
+  --c3: #000000;
+  --text: #1f2937;
+}
+* { box-sizing: border-box; padding: 0; margin: 0; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--c3); color: var(--text); }
+.page { max-width: 900px; margin: 0 auto; padding: 40px 24px 64px; }
+.hero { background: linear-gradient(135deg, var(--c1), var(--c2)); color: white; padding: 32px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+.tag { font-size: 14px; text-transform: uppercase; letter-spacing: .12em; opacity: .9; }
+h1 { font-size: 40px; margin: 12px 0 8px; }
+.subtitle { font-size: 18px; opacity: .95; }
+.cta { display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+.btn { background: #111827; color: white; padding: 12px 18px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+.btn.wa { background: #22c55e; }
+.card { background: white; margin-top: 24px; padding: 24px; border-radius: 16px; border: 1px solid rgba(0,0,0,.08); }
+.card h2 { margin-bottom: 12px; color: #111827; }
+.card ul { list-style: none; display: grid; gap: 8px; }
+.muted { color: #6b7280; font-size: 14px; margin-top: 6px; }
+.footer { text-align: center; margin-top: 40px; color: #6b7280; }
